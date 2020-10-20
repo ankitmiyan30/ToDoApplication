@@ -16,6 +16,11 @@
 		D62559E9253EA49700ED33B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62559E7253EA49700ED33B6 /* LaunchScreen.storyboard */; };
 		D62559F4253EA49700ED33B6 /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62559F3253EA49700ED33B6 /* ToDoAppTests.swift */; };
 		D62559FF253EA49700ED33B6 /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62559FE253EA49700ED33B6 /* ToDoAppUITests.swift */; };
+		D6255A11253EA50800ED33B6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6255A10253EA50800ED33B6 /* Home.swift */; };
+		D6255A1A253EA69000ED33B6 /* DateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6255A19253EA69000ED33B6 /* DateType.swift */; };
+		D6255A22253EA6EC00ED33B6 /* HomeCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6255A21253EA6EC00ED33B6 /* HomeCalenderView.swift */; };
+		D6255A27253EAE1C00ED33B6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6255A26253EAE1C00ED33B6 /* CalendarView.swift */; };
+		D6255A2C253EAEB900ED33B6 /* AddTaskPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6255A2B253EAEB900ED33B6 /* AddTaskPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		D62559FA253EA49700ED33B6 /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62559FE253EA49700ED33B6 /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		D6255A00253EA49700ED33B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6255A10253EA50800ED33B6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D6255A19253EA69000ED33B6 /* DateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateType.swift; sourceTree = "<group>"; };
+		D6255A21253EA6EC00ED33B6 /* HomeCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCalenderView.swift; sourceTree = "<group>"; };
+		D6255A26253EAE1C00ED33B6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D6255A2B253EAEB900ED33B6 /* AddTaskPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 		D62559D8253EA49500ED33B6 /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D6255A18253EA68600ED33B6 /* Model */,
+				D6255A0F253EA4F200ED33B6 /* View */,
 				D62559D9253EA49500ED33B6 /* AppDelegate.swift */,
 				D62559DB253EA49500ED33B6 /* SceneDelegate.swift */,
 				D62559DD253EA49500ED33B6 /* ContentView.swift */,
@@ -137,6 +149,25 @@
 				D6255A00253EA49700ED33B6 /* Info.plist */,
 			);
 			path = ToDoAppUITests;
+			sourceTree = "<group>";
+		};
+		D6255A0F253EA4F200ED33B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6255A10253EA50800ED33B6 /* Home.swift */,
+				D6255A21253EA6EC00ED33B6 /* HomeCalenderView.swift */,
+				D6255A2B253EAEB900ED33B6 /* AddTaskPage.swift */,
+				D6255A26253EAE1C00ED33B6 /* CalendarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6255A18253EA68600ED33B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6255A19253EA69000ED33B6 /* DateType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D62559DA253EA49500ED33B6 /* AppDelegate.swift in Sources */,
+				D6255A1A253EA69000ED33B6 /* DateType.swift in Sources */,
 				D62559DC253EA49500ED33B6 /* SceneDelegate.swift in Sources */,
+				D6255A11253EA50800ED33B6 /* Home.swift in Sources */,
+				D6255A2C253EAEB900ED33B6 /* AddTaskPage.swift in Sources */,
+				D6255A22253EA6EC00ED33B6 /* HomeCalenderView.swift in Sources */,
 				D62559DE253EA49500ED33B6 /* ContentView.swift in Sources */,
+				D6255A27253EAE1C00ED33B6 /* CalendarView.swift in Sources */,
 				D62559E1253EA49500ED33B6 /* ToDoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
